@@ -90,6 +90,16 @@ Moreover, to facilitate the understanding of video diffusion models, we provide 
   - [3D and 4D generation](#3d-and-4d-generation)
     - [Video diffusion for 3D generation](#video-diffusion-for-3d-generation)
     - [Video diffusion for 4D generation](#video-diffusion-for-4d-generation)
+- [Ethical considerations](#ethical-considerations)
+  - [Deepfake and misinformation](#deepfake-and-misinformation)
+    - [Video diffusion for 4D generation](#video-diffusion-for-4d-generation-1)
+  - [Content and privacy](#content-and-privacy)
+  - [Bias and representation](#bias-and-representation)
+  - [Legal and regulatory challenges](#legal-and-regulatory-challenges)
+  - [Transparency and disclosure](#transparency-and-disclosure)
+  - [Quality control and safety](#quality-control-and-safety)
+  - [Computational resources and environmental impact](#computational-resources-and-environmental-impact)
+  - [Benchmark datasets](#benchmark-datasets)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
 
@@ -1077,6 +1087,86 @@ Also, there are some datasets at [Midjourney V5.1 Cleaned Data](https://www.kagg
 | [Animate124: Animating One Image to 4D Dynamic Scene](https://arxiv.org/abs/2311.14603) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.14603) | [![Star](https://img.shields.io/github/stars/HeliosZhao/Animate124.svg?style=social&label=Star)](https://github.com/HeliosZhao/Animate124) | [![Website](https://img.shields.io/badge/Website-9cf)](https://animate124.github.io/) | arXiv 2024 |
 | [Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models](https://openaccess.thecvf.com/content/CVPR2024/papers/Ling_Align_Your_Gaussians_Text-to-4D_with_Dynamic_3D_Gaussians_and_Composed_CVPR_2024_paper.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.13763) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/) | CVPR 2024 |
 | [Text-to-4d dynamic scene generation](https://proceedings.mlr.press/v202/singer23a/singer23a.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2301.11280) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://make-a-video3d.github.io/) | ICML 2023 |
+
+# Ethical considerations
+## Deepfake and misinformation
+### Video diffusion for 4D generation
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [Towards a Universal Synthetic Video Detector: From Face or Background Manipulations to Fully AI-Generated Content](https://openaccess.thecvf.com/content/CVPR2025/papers/Kundu_Towards_a_Universal_Synthetic_Video_Detector_From_Face_or_Background_CVPR_2025_paper.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.12278) | - | - | CVPR 2025 |
+| [T2V-OptJail: Discrete Prompt Optimization for Text-to-Video Jailbreak Attacks](https://arxiv.org/abs/2505.06679) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.06679) | - | - | Arxiv 2025 |
+| [AniFaceGAN: Animatable 3D-Aware Face Image Generation for Video Avatars](https://arxiv.org/abs/2210.06465) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2210.06465) | - | - | NeurIPS 2022 |
+| [Multi-attentional Deepfake Detection](https://ieeexplore.ieee.org/document/9577592) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2103.02406) | [![Star](https://img.shields.io/github/stars/yoctta/multiple-attention.svg?style=social&label=Star)](https://github.com/yoctta/multiple-attention) | -  | CVPR 2021 |
+| [On the Detection of Digital Face Manipulation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dang_On_the_Detection_of_Digital_Face_Manipulation_CVPR_2020_paper.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1910.01717) | - | - | CVPR 2020 |
+| [FaceForensics: A Large-scale Video Dataset for Forgery Detection in Human Faces](https://arxiv.org/abs/1803.09179) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1803.09179) | - | - | CVPR 2018 |
+
+## Content and privacy
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection](https://dl.acm.org/doi/10.1145/3664647.3680904) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.16824) | - | - | ACM MM 2025 |
+| [Beyond Public Access in LLM Pre-Training Data](https://arxiv.org/abs/2505.00020) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.00020) | [![Star](https://img.shields.io/github/stars/AI-Disclosures-Project/Detecting-Access-Violations-in-a-LLMs-Pre-Training-Data.svg?style=social&label=Star)](https://github.com/AI-Disclosures-Project/Detecting-Access-Violations-in-a-LLMs-Pre-Training-Data) | - | Arxiv 2025 |
+| [Investigating Memorization in Video Diffusion Model](https://arxiv.org/abs/2410.21669) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21669) | - | - | Arxiv 2024|
+
+## Bias and representation
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [Gender Bias in Text-to-Video Generation Models: A case study of Sora](https://ieeexplore.ieee.org/document/11031156) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.01987) | - | - | TIS 2025|
+| [Bias and Fairness in Large Language Models: A Survey](https://aclanthology.org/2024.cl-3.8/) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.00770) | - | - | CL 2024|
+| [Investigating Memorization in Video Diffusion Model](https://arxiv.org/abs/2410.21669) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21669) | - | - | Arxiv 2024|
+
+## Legal and regulatory challenges
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [Regulation and NLP (RegNLP): Taming Large Language Models](https://aclanthology.org/2023.emnlp-main.539/) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.05553) | - | - | ACM MM 2025 |
+| [V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection](https://dl.acm.org/doi/10.1145/3664647.3680904) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.16824) | - | - | ACM MM 2025 |
+| [Investigating Memorization in Video Diffusion Model](https://arxiv.org/abs/2410.21669) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21669) | - | - | Arxiv 2024|
+
+## Transparency and disclosure
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+|[VideoShield: Regulating Diffusion-based Video Generation Models via Watermarking](https://openreview.net/pdf?id=uzz3qAYy0D) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.14195) | [![Star](https://img.shields.io/github/stars/hurunyi/VideoShield.svg?style=social&label=Star)](https://github.com/hurunyi/VideoShield) | - | ICLR 2025|
+|[PostMark: A Robust Blackbox Watermark for Large Language Models](https://aclanthology.org/2024.emnlp-main.506/) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14517) | [![Star](https://img.shields.io/github/stars/lilakk/PostMark.svg?style=social&label=Star)](https://github.com/lilakk/PostMark) | - | EMNLP 2024|
+|[Advancing Beyond Identification: Multi-bit Watermark for Large Language Models](https://aclanthology.org/2024.naacl-long.224/) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.00221) | [![Star](https://img.shields.io/github/stars/bangawayoo/mb-lm-watermarking.svg?style=social&label=Star)](https://github.com/bangawayoo/mb-lm-watermarking) | - | NAACL 2024|
+| [Investigating Memorization in Video Diffusion Model](https://arxiv.org/abs/2410.21669) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21669) | - | - | Arxiv 2024|
+
+## Quality control and safety
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+|[SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation](https://openreview.net/forum?id=hgTFotBRKl) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.12761) | [![Star](https://img.shields.io/github/stars/jaehong31/SAFREE.svg?style=social&label=Star)](https://github.com/jaehong31/SAFREE) | - | ICLR 2025|
+| [T2V-OptJail: Discrete Prompt Optimization for Text-to-Video Jailbreak Attacks](https://arxiv.org/abs/2505.06679) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.06679) | - | - | Arxiv 2025 |
+| [T2VShield: Model-Agnostic Jailbreak Defense for Text-to-Video Models](https://arxiv.org/abs/2504.15512) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.15512) | - | - | Arxiv 2025 |
+| [Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models](https://arxiv.org/abs/2311.16254) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.16254) | - | - | Arxiv 2023 |
+
+
+## Computational resources and environmental impact
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [Cost-Performance Optimization for Processing Low-Resource Language Tasks Using Commercial LLMs](https://aclanthology.org/2024.findings-emnlp.920/) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.05434) | - | - | Findings of EMNLP 2024 |
+
+## Benchmark datasets
+
+*Papers are listed generally in reverse order of their publication timestamps.*
+| <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
+|:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| [BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation](https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16907) | [![Star](https://img.shields.io/github/stars/wrt2000/BadVideo.svg?style=social&label=Star)](https://github.com/wrt2000/BadVideo) | [![Website](https://img.shields.io/badge/Website-9cf)](https://wrt2000.github.io/BadVideo2025/) | ICCV 2025 |
+| [Towards Understanding Unsafe Video Generation](https://www.ndss-symposium.org/wp-content/uploads/2025-1167-paper.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.12581) | [![Star](https://img.shields.io/github/stars/py85252876/UVD.svg?style=social&label=Star)](https://github.com/py85252876/UVD) | - | NDSS 2025 |
+| [SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations](https://openreview.net/forum?id=xjKz6IxgCX) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.06878) | [![Star](https://img.shields.io/github/stars/BillChan226/SafeWatch.svg?style=social&label=Star)](https://github.com/BillChan226/SafeWatch) | [![Website](https://img.shields.io/badge/Website-9cf)](https://safewatch-aiguard.github.io/) | ICLR 2025 |
+| [T2Vs Meet VLMs: A Scalable Multimodal Dataset for Visual Harmfulness Recognition](https://openreview.net/forum?id=0G8AXwtmy2#discussion) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19734) | [![Star](https://img.shields.io/github/stars/nctu-eva-lab/VHD11K.svg?style=social&label=Star)](https://github.com/nctu-eva-lab/VHD11K) | - | NeurIPS 2024 |
+| [T2VSafetyBench: Evaluating the Safety of Text-to-Video Generative Models](https://proceedings.neurips.cc/paper_files/paper/2024/file/74eed5f568354c2e77dd9b018f38a9d4-Paper-Datasets_and_Benchmarks_Track.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.05965) | [![Star](https://img.shields.io/github/stars/yibo-miao/T2VSafetyBench.svg?style=social&label=Star)](https://github.com/yibo-miao/T2VSafetyBench) | - | NeurIPS 2024 |
+
+
 
 # Citation
 If you find our survey is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
