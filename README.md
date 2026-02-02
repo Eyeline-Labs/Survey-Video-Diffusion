@@ -92,7 +92,6 @@ Moreover, to facilitate the understanding of video diffusion models, we provide 
     - [Video diffusion for 4D generation](#video-diffusion-for-4d-generation)
 - [Ethical considerations](#ethical-considerations)
   - [Deepfake and misinformation](#deepfake-and-misinformation)
-    - [Video diffusion for 4D generation](#video-diffusion-for-4d-generation-1)
   - [Content and privacy](#content-and-privacy)
   - [Bias and representation](#bias-and-representation)
   - [Legal and regulatory challenges](#legal-and-regulatory-challenges)
@@ -1090,7 +1089,6 @@ Also, there are some datasets at [Midjourney V5.1 Cleaned Data](https://www.kagg
 
 # Ethical considerations
 ## Deepfake and misinformation
-### Video diffusion for 4D generation
 *Papers are listed generally in reverse order of their publication timestamps.*
 | <div style="width:64%">Title</div> | <div style="width:8%">arXiv</div> | <div style="width:8%">GitHub</div>| <div style="width:8%">Website</div> | <div style="width:12%">Conference & Year</div> |
 |:------------------------------------------------------------|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
